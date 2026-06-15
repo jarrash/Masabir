@@ -142,7 +142,7 @@ class CHtmlPageHeader {
 				<link rel="apple-touch-icon-precomposed" sizes="180x180" href="assets/img/apple-touch-icon-180x180-precomposed.png">
 				<link rel="icon" sizes="192x192" href="assets/img/touch-icon-192x192.png">
 				<meta name="msapplication-TileImage" content="assets/img/ms-tile-144x144.png">
-				<meta name="msapplication-TileColor" content="#d40000">
+				<meta name="msapplication-TileColor" content="#2563eb">
 				<meta name="msapplication-config" content="none"/>
 		HTML;
 

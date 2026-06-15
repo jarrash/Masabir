@@ -922,7 +922,7 @@ function makeServerStatusOutput(): CTag {
 * @param int $type  LOGO_TYPE_NORMAL | LOGO_TYPE_SIDEBAR | LOGO_TYPE_SIDEBAR_COMPACT.
 */
 function makeLogo(int $type): CTag {
-	static $zabbix_logo_classes = [
+	static $masabir_logo_classes = [
 		LOGO_TYPE_NORMAL => ZBX_STYLE_ZABBIX_LOGO,
 		LOGO_TYPE_SIDEBAR => ZBX_STYLE_ZABBIX_LOGO_SIDEBAR,
 		LOGO_TYPE_SIDEBAR_COMPACT => ZBX_STYLE_ZABBIX_LOGO_SIDEBAR_COMPACT
@@ -931,10 +931,10 @@ function makeLogo(int $type): CTag {
 	$brand_logo = CBrandHelper::getLogo($type);
 
 	if ($brand_logo !== null) {
-		return (new CImg($brand_logo))->addClass($zabbix_logo_classes[$type]);
+		return (new CImg($brand_logo))->addClass($masabir_logo_classes[$type]);
 	}
 
-	return (new CDiv())->addClass($zabbix_logo_classes[$type]);
+	return (new CDiv())->addClass($masabir_logo_classes[$type]);
 }
 
 /**

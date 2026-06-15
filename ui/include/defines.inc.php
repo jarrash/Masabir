@@ -31,7 +31,7 @@ define('DB_VERSION_HIGHER_THAN_MAXIMUM_WARNING',	7);
 define('ZABBIX_COPYRIGHT_FROM',	'2001');
 define('ZABBIX_COPYRIGHT_TO',	'2026');
 
-define('ZBX_DOCUMENTATION_URL', 'https://www.zabbix.com/documentation');
+define('ZBX_DOCUMENTATION_URL', 'https://docs.masabir.com');
 
 define('ZBX_BCRYPT_COST',		10);
 
@@ -2269,9 +2269,9 @@ define('ZBX_STYLE_FIELD_LABEL_ASTERISK', 'form-label-asterisk');
 define('ZBX_STYLE_PROBLEM_ICON_LIST', 'problem-icon-list');
 define('ZBX_STYLE_PROBLEM_ICON_LINK', 'problem-icon-link');
 define('ZBX_STYLE_PROBLEM_ICON_LIST_ITEM', 'problem-icon-list-item');
-define('ZBX_STYLE_ZABBIX_LOGO', 'zabbix-logo');
-define('ZBX_STYLE_ZABBIX_LOGO_SIDEBAR', 'zabbix-logo-sidebar');
-define('ZBX_STYLE_ZABBIX_LOGO_SIDEBAR_COMPACT', 'zabbix-logo-sidebar-compact');
+define('ZBX_STYLE_ZABBIX_LOGO', 'masabir-logo');
+define('ZBX_STYLE_ZABBIX_LOGO_SIDEBAR', 'masabir-logo-sidebar');
+define('ZBX_STYLE_ZABBIX_LOGO_SIDEBAR_COMPACT', 'masabir-logo-sidebar-compact');
 define('ZBX_STYLE_DEFAULT_OPTION', 'default-option');
 define('ZBX_STYLE_OVERLAY_DIALOGUE_HEADER', 'overlay-dialogue-header');
 define('ZBX_STYLE_Z_TEXTAREA_FLEXIBLE', 'z-textarea-flexible');

@@ -1,7 +1,7 @@
 {
-	"name": "zabbix/ui",
-	"description": "Hosted Zabbix User Interface in PHP",
-	"homepage": "https://www.zabbix.com",
+	"name": "masabir/ui",
+	"description": "Hosted Masabir User Interface in PHP",
+	"homepage": "https://www.masabir.com",
 	"license": "AGPL-3.0-only",
 	"require": {
 		"php": ">=8.2 <8.6",

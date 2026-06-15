@@ -30,7 +30,7 @@ const (
 	ZABBIX_VERSION_RC       = "beta2"
 	ZABBIX_VERSION_RC_NUM   = "{ZABBIX_RC_NUM}"
 	ZABBIX_VERSION_REVISION = "{ZABBIX_REVISION}"
-	copyrightMessage        = "Copyright (C) 2026 Zabbix SIA\n" +
+	copyrightMessage        = "Copyright (C) 2026 Masabir Corp\n" +
 		"License AGPLv3: GNU Affero General Public License version 3 <https://www.gnu.org/licenses/>.\n" +
 		"This is free software: you are free to change and redistribute it according to\n" +
 		"the license. There is NO WARRANTY, to the extent permitted by law."
@@ -145,7 +145,7 @@ func TitleMessage() string {
 // Program version includes Zabbix revision and it's time and date, compilation time and date, Go compiler tree's
 // version string, copyright message, and additionalMessages provided by the caller function.
 func Display(additionalMessages []string) {
-	fmt.Printf("%s (Zabbix) %s\n", TitleMessage(), Long())
+	fmt.Printf("%s (Masabir) %s\n", TitleMessage(), Long())
 	fmt.Printf(
 		"Revision %s %s, compilation time: %s %s, built with: %s\n",
 		Revision(), RevDate(), CompileDate(), CompileTime(), runtime.Version(),

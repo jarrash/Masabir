@@ -112,9 +112,9 @@ class CBrandHelper {
 		$footer = self::getValue(
 			'BRAND_FOOTER',
 			[
-				$with_version ? 'Zabbix '.ZABBIX_VERSION.'. ' : null,
+				$with_version ? 'Masabir '.ZABBIX_VERSION.'. ' : null,
 				COPYR(), ' '.ZABBIX_COPYRIGHT_FROM, NDASH(), ZABBIX_COPYRIGHT_TO.', ',
-				(new CLink('Zabbix SIA', 'https://www.zabbix.com/'))
+				(new CLink('Masabir Corp', 'https://www.masabir.com/'))
 					->addClass(ZBX_STYLE_GREY)
 					->addClass(ZBX_STYLE_LINK_ALT)
 					->setTarget('_blank')

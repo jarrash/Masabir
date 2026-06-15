@@ -3,7 +3,7 @@
     "svgtofont": "^3.18.0"
   },
   "scripts": {
-    "generate": "svgtofont --sources ./svg --output ./dist --fontName zabbix-icons",
+    "generate": "svgtofont --sources ./svg --output ./dist --fontName masabir-icons",
     "cleanup": "rm ./dist/symbol.html ./dist/unicode.html ./dist/*.symbol.svg ./dist/*.eot ./dist/*.scss"
   },
   "svgtofont": {
